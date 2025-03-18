@@ -1,0 +1,49 @@
+
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selling coffee mugs</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body>
+
+    <header>
+        <h1>Premium Coffee Mugs</h1>
+        <p> Please Start your day with our stylish , expensive and durable mugs!</p>
+        <button class="cart-btn" onclick="ToggleEvent()">Cart(<span id="cart-count">0</span>)</button>
+    </header>
+
+    <section class="container" id="product-list">
+        
+            
+
+        
+    </section>
+
+     <div id=" cart-popup" class="cart-popup">
+        <div class="cart-content">
+            <span class="close-btn"
+    
+        onclick="togglecart()">&times;</span>
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total:<span
+            id="cart-total">$0.00</span></p>
+            <button 
+            class="checkout-btn" 
+            onclick="checkout()">checkout</button> 
+            </div>
+
+
+        </div>
+     </div>
+
+    <footer>
+        <p>&copy; 2025 CoffeeMugs.com | All Rights Reserved</p>
+    </footer>
+
+    <script src="script01.js"></script>
+</body>
+</html>
+
